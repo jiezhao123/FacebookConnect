@@ -15,6 +15,8 @@
 	based authentication.
 	</description>
     
+    <license>MIT</license>
+    
     <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
     <asset src="www/facebook-js-sdk.js" target="facebook-js-sdk.js" />
     
@@ -25,6 +27,8 @@
       <access origin="*.fbcdn.net" />
       <access origin="*.akamaihd.net" />
     </config-file>
+
+
 
     <engines>
       <engine name="cordova" version=">=2.1.0" />
